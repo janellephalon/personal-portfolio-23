@@ -14,18 +14,18 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: proImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "IdeaForA",
+      description: "Full Stack Application",
       imgUrl: proImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "E-Commerce Backend",
+      description: "Full Stack Application",
+      imgUrl: proImg1,
+    },
+    {
+      title: "Speedy Socials",
+      description: "Full Stack Application",
       imgUrl: proImg3,
     },
     {
@@ -56,16 +56,16 @@ export const Projects = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ligula ex, facilisis ut luctus eu, placerat in nunc. Fusce eu efficitur magna.
             </p>
             <Tab.Container if="project-tabs" defaultActiveKey="first">
-              <Nav variant="pills" defaultActiveKey="/home">
-                  <Nav.item>
+              <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                  <Nav.Item>
                     <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                  </Nav.item>
-                  <Nav.item>
+                  </Nav.Item>
+                  <Nav.Item>
                     <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                  </Nav.item>
-                  <Nav.item>
+                  </Nav.Item>
+                  <Nav.Item>
                     <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                  </Nav.item>
+                  </Nav.Item>
               </Nav>
               <Tab.Content>
                 <Tab.Pane eventKey="first">
