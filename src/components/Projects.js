@@ -58,13 +58,13 @@ export const Projects = () => {
             <Tab.Container if="project-tabs" defaultActiveKey="first">
               <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                   <Nav.Item>
-                    <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                    <Nav.Link eventKey="first">Coding Projects</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                    <Nav.Link eventKey="second">Published Writing</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                    <Nav.Link eventKey="third">Video Tutorials</Nav.Link>
                   </Nav.Item>
               </Nav>
               <Tab.Content>
