@@ -50,9 +50,9 @@ export const Banner = () => {
             <h1>
               {`Hi I'm Janelle! `}
             </h1>
-            <h1>
-              <span className="wrap">{text}</span>
-            </h1>
+            <h2>
+              {`Your favorite `}<span className="wrap">{text}</span>
+            </h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ligula ex, facilisis ut luctus eu, placerat in nunc. Fusce eu efficitur magna.
             </p>
